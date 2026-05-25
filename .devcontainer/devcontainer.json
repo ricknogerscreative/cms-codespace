@@ -1,4 +1,11 @@
 {
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"anthropic.claude-code"
+			]
+		}
+	}
 “name”: “WordPress Development Environment”,
 “image”: “mcr.microsoft.com/vscode/devcontainers/php:7.4”,
 “postCreateCommand”: “echo ‘Setting up WordPress'”,
