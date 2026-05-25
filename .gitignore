@@ -1,0 +1,125 @@
+# WordPress Core
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+wp-blog-header.php
+
+# WordPress Configuration
+wp-config.php
+wp-config-local.php
+.env
+.env.local
+.env.*.local
+
+# WordPress Database & Backups
+*.sql
+*.sql.gz
+*.backup
+*.bak
+
+# WordPress User Uploads (tracked separately or via media server)
+wp-content/uploads/
+wp-content/backup-*
+wp-content/cache/
+
+# WordPress Plugins (third-party only, custom plugins should be tracked)
+wp-content/plugins/
+!wp-content/plugins/.gitkeep
+# Exception: uncomment below if custom plugins should be tracked
+# !wp-content/plugins/your-custom-plugin/
+
+# WordPress Themes (third-party only, custom themes should be tracked)
+wp-content/themes/
+!wp-content/themes/.gitkeep
+# Exception: keep your custom child theme tracked
+# !wp-content/themes/edoa-kadence-child/
+
+# Development Dependencies
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build & Distribution
+dist/
+build/
+.next/
+out/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Project Scripts (useful to keep locally but not tracked)
+install-wordpress.sh
+create-wp-db.sh
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+ehthumbs.db
+
+# Local Development
+.env.local
+.env.*.local
+local.php
+debug.log
+wp-content/debug.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# PHP & Composer
+.php_cs
+.php_cs.cache
+.phpunit.result.cache
+
+# Docker (if using)
+.dockerignore
+docker-compose.override.yml
+
+# macOS
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node/Webpack artifacts
+*.map
+dist/
